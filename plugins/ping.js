@@ -38,14 +38,14 @@ malvin({
 
         // Final response
         await conn.sendMessage(from, {
-            text: `> *LUCKY-XD RESPONSE: ${ping} ms ${randomEmoji}*\n> *sᴛᴀᴛᴜs: ${color} ${badge}*\n> *ᴠᴇʀsɪᴏɴ: ${config.version}*`,
+            text: `> *PEACE HUB RESPONSE: ${ping} ms ${randomEmoji}*\n> *sᴛᴀᴛᴜs: ${color} ${badge}*\n> *ᴠᴇʀsɪᴏɴ: ${config.version}*`,
             contextInfo: {
                 mentionedJid: [sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: "Lucky XD",
+                    newsletterJid: '120363421564278292@newsletter',
+                    newsletterName: "ᴘᴇᴀᴄᴇ ʜᴜʙ",
                     serverMessageId: 143
                 }
             }
