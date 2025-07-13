@@ -71,7 +71,7 @@ LINK_WHITELIST: "youtube.com,github.com",
           OWNER_NUMBER: process.env.OWNER_NUMBER || "254752818245",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "Peacemaker",
+OWNER_NAME: process.env.OWNER_NAME || "ᴘᴇᴀᴄᴇᴍᴀᴋᴇʀ",
 // add bot owner name
 
               DESCRIPTION: process.env.DESCRIPTION || "*🚀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴇᴀᴄᴇ ʜᴜʙ*",
