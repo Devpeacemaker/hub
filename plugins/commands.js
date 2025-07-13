@@ -99,15 +99,15 @@ ${config.DESCRIPTION}`;
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/4itzeu.jpg` },
+                image: { url: `https://files.catbox.moe/5m0i6t.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363420656466131@newsletter',
-                        newsletterName: 'LUCKY-XD',
+                        newsletterJid: '120363421564278292@newsletter',
+                        newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ',
                         serverMessageId: 143
                     }
                 }
