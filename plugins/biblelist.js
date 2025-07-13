@@ -82,11 +82,11 @@ malvin({
 26. Jude
 27. Revelation
 
-> ©️By Lucky XD v3❤️✅
+> ©️By Peace hub❤️✅
 `;
 
         // Image URL
-        const imageUrl = "https://files.catbox.moe/4itzeu.jpg"; // Replace with the actual image URL
+        const imageUrl = "https://files.catbox.moe/wxo2a1.jpg"; // Replace with the actual image URL
 
         // Check if the chat is valid
         if (!m.chat) {
@@ -96,7 +96,7 @@ malvin({
         // Send the response with the image and Bible list
         await conn.sendMessage(m.chat, {
             image: { url: imageUrl },
-            caption: `📖 *Bible List By Lucky xᴅ*:\n\n` +
+            caption: `📖 *Bible List By Peace hub*:\n\n` +
                      `Here is the complete list of books in the Bible:\n\n` +
                      bibleList.trim() // Added the Bible list text
         }, { quoted: mek });
