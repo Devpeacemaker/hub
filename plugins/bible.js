@@ -1,7 +1,7 @@
 /*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https://github.com/XdKing2/MALVIN-XD
+Project Name : PEACE HUB
+Creator      : Peacemaker
+Repo         : https://github.com/Peacemaker-cyber/PEACE-HUB
 */   
 
 const axios = require("axios");
@@ -34,14 +34,14 @@ malvin({
 
             // Format the response with more metadata
             reply(
-                `📜 *𝘽𝙄𝘽𝙇𝙀 𝙑𝙀𝙍𝙎𝙀 𝙁𝙊𝙐𝙉𝘿!*\n\n` +
-                `📖 *𝑹𝒆𝒇𝒆𝒓𝒆𝒏𝒄𝒆:* ${ref}\n` +
-                `📚 *𝑩𝒐𝒐𝒌:* ${book_name}\n` +
-                `🔢 *𝑪𝒉𝒂𝒑𝒕𝒆𝒓:* ${chapter}\n` +
-                `🔤 *𝑽𝒆𝒓𝒔𝒆:* ${verse}\n\n` +
-                `📖 *𝑻𝒆𝒙𝒕:* ${text}\n\n` +
-                `🗂️ *𝑻𝒓𝒂𝒏𝒔𝒍𝒂𝒕𝒊𝒐𝒏:* ${translation_name}\n\n` +
-                `> © Powered By Lucky Tech Hub`
+                `🌟 *ʙɪʙʟᴇ ᴅʀᴏᴘ ᴀʟᴇʀᴛ!*\n\n` +
+                `🆔 *ʀᴇꜰᴇʀᴇɴᴄᴇ:* ${ref}\n` +
+                `📘 *ʙᴏᴏᴋ:* ${book_name}\n` +
+                `🔎 *ᴄʜᴀᴘᴛᴇʀ:* ${chapter}\n` +
+                `🔡 *ᴠᴇʀꜱᴇ:* ${verse}\n\n` +
+                `💬 *ᴠᴇʀꜱᴇ ᴛᴇxᴛ:* ${text}\n\n` +
+                `🌐 *ᴛʀᴀɴꜱʟᴀᴛɪᴏɴ:* ${translation_name}\n\n` +
+                `> 🚀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴇᴀᴄᴇ ʜᴜʙ`
             );
         } else {
             reply("❌ *Verse not found.* Please check the reference and try again.");
