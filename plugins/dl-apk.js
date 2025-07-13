@@ -47,8 +47,8 @@ malvin({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363420656466131@newsletter',
-          newsletterName: '『『 LUCKY-XD 』』',
+          newsletterJid: '120363421564278292@newsletter',
+          newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ',
           serverMessageId: 143
         }
       }
@@ -69,7 +69,7 @@ malvin({
       `📅 *Lᴀsᴛ ᴜᴘᴅᴀᴛᴇ*: ${lastup}\n` +
       `📦 *Pᴀᴄᴋᴀɢᴇ*: ${package}\n` +
       `📏 *Sɪᴢᴇ*: ${size}\n\n` +
-      `> © Powered By Lucky Tech Hub `;
+      `> 🚀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴇᴀᴄᴇ ʜᴜʙ `;
 
     // Send the APK file as a document
     await conn.sendMessage(from, {
@@ -82,8 +82,8 @@ malvin({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363420656466131@newsletter',
-          newsletterName: '『 LUCKY-XD 』 ',
+          newsletterJid: '120363421564278292@newsletter',
+          newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ',
           serverMessageId: 143
         }
       }
