@@ -2,7 +2,7 @@
 Project Name : LUCKY XMD
 Creator      : LUCKY 218 ( Mr Lucky 218)
 Repo         : https//github.com/Tomilucky218/Lucky-XD2
-Support      : wa.me/263714757857
+Support      : wa.me/2
 */
 
 
@@ -39,22 +39,22 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/4itzeu.jpg' }, // Image URL from your request
+            image: { url: 'https://files.catbox.moe/uykxm4.jpg' }, // Image URL from your request
             caption: `
-╭┈┈❍ LUCKY XD ❍
+╭┈┈❍ PEACE HUB ❍
 ┊• *Here are the user details*
 ┊• *ɴᴀᴍᴇ* : ${ownerName}
 ┊• *ɴᴜᴍʙᴇʀ*: ${ownerNumber}
 ┆• *ᴠᴇʀsɪᴏɴ*: ${config.version}
 ╰┈┈┈┈┈┈┈⭘
-> © sᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ғᴏʀ ғᴀɴᴛᴀsᴛɪᴄ ᴜᴘᴅᴀᴛᴇs!`, // Display the owner's details
+> sᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ғᴏʀ ғᴀɴᴛᴀsᴛɪᴄ ᴜᴘᴅᴀᴛᴇs!`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: 'User Owner',
+                    newsletterJid: '120363421564278292@newsletter',
+                    newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ',
                     serverMessageId: 143
                 }            
             }
