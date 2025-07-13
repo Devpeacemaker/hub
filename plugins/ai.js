@@ -4,17 +4,17 @@ const axios = require("axios");
 const { malvin } = require("../malvin");
 
 malvin({
-    pattern: "lucky",
-    alias: "lucky",
-    desc: "Interact with ChatGPT using the XD Api.",
+    pattern: "peace",
+    alias: "peace",
+    desc: "Interact with ChatGPT using the HUB Api.",
     category: "ai",
     react: "🤖",
-    use: ".lucky <your query>",
+    use: ".peace <your query>",
     filename: __filename,
 }, async (conn, mek, m, { from, args, q, reply }) => {
     try {
         // Vérification de l'entrée utilisateur
-        if (!q) return reply("⚠️ Please provide a query for Lucky Ai.\n\nExample:\n.lucky What is AI?");
+        if (!q) return reply("⚠️ Please provide a query for Peace Ai.\n\nExample:\n.peace What is AI?");
 
         // Utilisation de `${text}` dans le endpoint API
         const text = q;  // Texte de la requête de l'utilisateur
@@ -62,8 +62,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: '*LUCKY 𝐀𝐈*',
+                    newsletterJid: '120363421564278292@newsletter',
+                    newsletterName: 'ᴘᴇᴀᴄᴇ ᴀɪ',
                     serverMessageId: 143
                 }
             }
@@ -123,7 +123,7 @@ malvin({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://files.catbox.moe/4itzeu.jpg'; // Replace with a valid image URL
+        const AI_IMG = 'https://files.catbox.moe/8e3mrm.jpg'; // Replace with a valid image URL
 
         // Formatted response text
         const formattedInfo = `🤖 *Llama3 Response:*\n\n${llamaResponse}`;
@@ -137,8 +137,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: 'LUCKY-XD 𝐀𝐈',
+                    newsletterJid: '120363421564278292@newsletter',
+                    newsletterName: 'ᴘᴇᴀᴄᴇ ᴀɪ',
                     serverMessageId: 143
                 }
             }
