@@ -74,7 +74,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 OWNER_NAME: process.env.OWNER_NAME || "Peacemaker",
 // add bot owner name
 
-              DESCRIPTION: process.env.DESCRIPTION || "* Powered By Peace hub*",
+              DESCRIPTION: process.env.DESCRIPTION || "*> 🚀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴇᴀᴄᴇ ʜᴜʙ*",
 // add bot owner name    
 
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
