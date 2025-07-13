@@ -197,7 +197,7 @@ const clearTempDir = () => {
 setInterval(clearTempDir, 0x5 * 0x3c * 0x3e8);
 if (!fs[_0x1d324b(0x2ae)](__dirname + _0x1d324b(0x246))) {
     if (!config['SESSION_ID']) return console[_0x1d324b(0x266)](_0x1d324b(0x31f));
-    const sessdata = config['SESSION_ID'][_0x1d324b(0x2d5)]('lucky~', ''),
+    const sessdata = config['SESSION_ID'][_0x1d324b(0x2d5)]('PEACE~', ''),
         filer = File[_0x1d324b(0x19f)](_0x1d324b(0x32f) + sessdata);
     filer['download']((_0x4c399e, _0x1bf447) => {
         const _0x41f433 = _0x1d324b,
