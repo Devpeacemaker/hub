@@ -25,7 +25,7 @@ malvin({
 
     const fbData = await facebook(q);
     
-    const caption = `╭━━━〔 *LUCKY-XD FB DL* 〕━━━⊷\n`
+    const caption = `╭━━━〔 *PEACE-HUB FB DL* 〕━━━⊷\n`
       + `┃▸ *Dᴜʀᴀᴛɪᴏɴ*: ${fbData.result.duration}\n`
       + `╰━━━⪼\n\n`
       + `🌐 *Download Options:*\n`
