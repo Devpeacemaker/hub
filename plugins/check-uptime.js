@@ -22,7 +22,7 @@ async (conn, mek, m, { from, reply }) => {
 │ 🕰️ *Since:* ${startTime.toLocaleString()}
 │ 🧩 *Status:* Online & stable
 │
-╰─➤ ${config.DESCRIPTION || 'Bot Powered By Lucky Tech Hub.'}
+╰─➤ ${config.DESCRIPTION || 'Powered By Peace hub.'}
         `.trim();
 
         await conn.sendMessage(from, { 
@@ -32,8 +32,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: config.OWNER_NAME || 'Lucky 218',
+                    newsletterJid: '120363421564278292@newsletter',
+                    newsletterName: config.OWNER_NAME || 'ᴘᴇᴀᴄᴇᴍᴀᴋᴇʀ',
                     serverMessageId: 143
                 }
             }
