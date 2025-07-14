@@ -9,7 +9,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 malvin({
     pattern: "yts",
     alias: ["ytsearch"],
-    use: '.yts luckyxd',
+    use: '.yts peacehub',
     react: "🔎",
     desc: "Search and get details from youtube.",
     category: "download",
