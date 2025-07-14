@@ -23,7 +23,7 @@ try{
 let res = await axios.get('https://api.lolicon.app/setu/v2?num=1&r18=0&tag=lolicon')
 let wm = `😎 Random Garl image
 
-©Powered By Lucky Tech Hub`
+Powered By Peace Hub`
 await conn.sendMessage(from, { image: { url: res.data.data[0].urls.original }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -46,7 +46,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/waifu')
 let wm = `🩵 Random Waifu image
 
-©Powered By Lucky Tech Hub`
+©Powered By Peace Hub`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -69,7 +69,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/neko')
 let wm = `🩷 Random neko image
 
-©Powered By Lucky Tech Hub`
+©Powered By Peace Hub`
 await conn.sendMessage(from, { image: { url: res.data.url  }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -92,7 +92,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/megumin')
 let wm = `❤️‍🔥Random megumin image
 
-©Powered By Lucky Tech Hub`
+©Powered By Peace Hub`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -115,7 +115,7 @@ try{
 let res = await axios.get('https://api.waifu.im/search/?included_tags=maid')
 let wm = `😎 Random maid image
 
-©Powered By Lucky Tech Hub`
+©Powered By Peace Hub`
 await conn.sendMessage(from, { image: { url: res.data.images[0].url  }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -138,7 +138,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/awoo')
 let wm = `😎 Random awoo image
 
-©Powered By Lucky Tech Hub`
+©Powered By Peace Hub`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -159,7 +159,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '*ANIME GIRL IMAGE* 🥳\n\n\n *> © Powered By Lucky Tech Hub`*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '*ANIME GIRL IMAGE* 🥳\n\n\n *> Powered By Peace Hub`*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -179,7 +179,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > © Powered By Lucky Tech Hub' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > Powered By Peace Hub' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -199,7 +199,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > © Powered By Lucky Tech Hub' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > Powered By Peace Hub' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -219,7 +219,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > © Powered By Lucky Tech Hub' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > Powered By Peace Hub' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -239,7 +239,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > © Powered By Lucky Tech Hub' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > Powered By Peace Hub' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -259,7 +259,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > © Powered By Lucky Tech Hub' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n > Powered By Peace Hub' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -279,7 +279,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.message }, caption: '> *© Powered By Lucky Tech Hub ' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.message }, caption: '> *Powered By Peace Hub ' }, { quoted: mek });
     } catch (e) {
         console.log(e); // ❯❯ Powered By Lucky Tech Hub
         reply(`єяяσя ƒєт¢нιηg ∂σg ιмαgє: ${e.message}`);
@@ -301,7 +301,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = response.data;
 
         // Send the cat image with a caption
-        await conn.sendMessage(from, { image: { url: data[0].url }, caption: 'LUCKY-XD DOWNLOAD CAT 🐈 PICS\n\n> *Powered By Lucky Tech Hub*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data[0].url }, caption: 'PEACE-HUB DOWNLOAD CAT 🐈 PICS\n\n> *Powered By Peace Hub*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`Error Fetching Cat Image 🤕: ${e.message}`);
