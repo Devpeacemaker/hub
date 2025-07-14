@@ -80,24 +80,24 @@ async function shortenUrl(longUrl) {
 // Send the URL shortening result with an image
 async function replyWithUrl(conn, from, longUrl, shortUrl, mek) {
   const caption = `
-*Lucky XD Shorter*
+*PEACE HUB SHORTER*
   
 🔎*ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ:* ${longUrl}
 
 🔍*sʜᴏʀᴛᴇɴᴇᴅ ʟɪɴᴋ:* ${shortUrl}
 
-> Powered By Lucky Tech Hub`;
+> Powered By Peace Hub`;
 
   await conn.sendMessage(from, {
-    image: { url: `https://files.catbox.moe/4itzeu.jpg` }, // Image URL
+    image: { url: `https://files.catbox.moe/yusei5.jpg` }, // Image URL
     caption: caption,
     contextInfo: {
       mentionedJid: [mek.sender],
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363420656466131@newsletter',
-        newsletterName: '『 LUCKY-XD 』',
+        newsletterJid: '120363421564278292@newsletter',
+        newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ',
         serverMessageId: 143
       }
     }
