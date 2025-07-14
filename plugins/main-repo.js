@@ -14,7 +14,7 @@ malvin({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Tomilucky218/Lucky-XD2';
+    const githubRepoURL = 'https://github.com/Devpeacemaker/PEACE-HUB';
 
     try {
         // Extract username and repo name from the URL
@@ -31,14 +31,14 @@ async (conn, mek, m, { from, reply }) => {
 
         // Format the repository information
         const formattedInfo = `
-    🚀 LUCKY-XD REPO INFO 🚀
+    🚀 PEACE-HUB REPO INFO 🚀
 
 ╭────────────━⊷
 ┊⭘
 ┊⭘ 🤖 *ɴᴀᴍᴇ:* ${repoData.name}
 ┊⭘ ⭐ *ᴛᴏᴛᴀʟ sᴛᴀʀs:* ${repoData.stargazers_count}
 ┊⭘ 👥️ *ᴅᴀɪʟʏ ᴜsᴇʀs:* ${repoData.forks_count}
-┊⭘ 👤 *ᴏᴡɴᴇʀ:* Lucky 218
+┊⭘ 👤 *ᴏᴡɴᴇʀ:* Peacemaker
 ┊⭘ 🪀 *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:* ${repoData.description || 'No description available'}
 
 > 🌟 Star & 🍴 Fork the repo for more updates!
@@ -49,15 +49,15 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/4itzeu.jpg` },
+            image: { url: `https://files.catbox.moe/yusei5.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: 'LUCKY-XD REPO',
+                    newsletterJid: '120363421564278292@newsletter',
+                    newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ ʀᴇᴘᴏ',
                     serverMessageId: 143
                 }
             }
