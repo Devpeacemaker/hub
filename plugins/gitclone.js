@@ -47,13 +47,13 @@ malvin({
     
 📥 *_Downloading repository..._*
 
-╭─❍ LUCKY-XD GIT DL ❍─
+╭─❍ PEACE-HUB GIT DL ❍─
 ┊
 ╎*Rᴇᴘɪsɪᴛᴏʀʏ:* ${username}/${repo}
 ┆
 ╎*Fɪʟᴇɴᴀᴍᴇ:* ${fileName}
 ╰─⟤
-> *Powered By Lucky Tech Hub*
+> *Powered By Peace Hub*
 
 `);
 
@@ -67,8 +67,8 @@ malvin({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363420656466131@newsletter',
-          newsletterName: 'LUCKY-XD Git DL',
+          newsletterJid: '120363421564278292@newsletter',
+          newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ',
           serverMessageId: 143
         }
       }
