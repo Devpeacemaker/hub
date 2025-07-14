@@ -28,8 +28,8 @@ async (conn, mek, m, {
         const uptimeFormatted = runtime(process.uptime());
 
         const message = `
-╭─『 *LUCKY-XD SUPPORT* 』─
-│ 👤 *Developer* : Mr Lucky 🇺🇬
+╭─ *PEACE-HUB SUPPORT* ─
+│ 👤 *Developer* : Peacemaker 🇰🇪
 │ ⚙️ *Mode*      : ${config.MODE}
 │ ⏱️ *Uptime*    : ${uptimeFormatted}
 │ 💠 *Prefix*    : ${config.PREFIX}
@@ -37,30 +37,30 @@ async (conn, mek, m, {
 │ 🕰️ *Time*      : ${currentTime}
 ╰─────────────
 
-📢 *Follow & Support LUCKY XD* ${readMore}
+📢 *Follow & Support PEACE-HUB* ${readMore}
 
 🔔 *Official WhatsApp Channel*
-https://whatsapp.com/channel/0029VbAnuvT6RGJ9Qrf3NJ0L
+https://whatsapp.com/channel/0029VbA9YD323n3ko5xL7J1e
 
 🎬 *YouTube Channel*
-https://youtube.com/@luckytechhub-i9u
+https://youtube.com/@Peacemaker-q-n8
 
 👨‍💻 *Developer Contact*
-wa.me/256789966218?text=Hi%20Lucky,%20I%20need%20support!
+wa.me/254752818245?text=Hi%20Peacemaker,%20I%20need%20support!
 
->💡Powered By Lucky Tech Hub
+>💡Powered By Peace Hub
         `.trim();
 
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/4itzeu.jpg' },
+            image: { url: 'https://files.catbox.moe/yusei5.jpg' },
             caption: message,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: '🪀『 LUCKY-XD 』🪀',
+                    newsletterJid: '120363421564278292@newsletter',
+                    newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ',
                     serverMessageId: 143
                 }
             }
