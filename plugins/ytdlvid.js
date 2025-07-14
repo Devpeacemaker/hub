@@ -51,7 +51,7 @@ malvin({
         await conn.sendMessage(from, {
             video: { url: downloadUrl },
             mimetype: "video/mp4",
-            caption: `🎬 *Video Downloaded Successfully!*\n\n> Powered By Lucky Tech Hub`
+            caption: `🎬 *Video Downloaded Successfully!*\n\n> Powered By Peace Hub`
         }, { quoted: mek });
 
     } catch (error) {
