@@ -2,7 +2,7 @@ const { malvin } = require("../malvin");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Recording the start time of the bot
-const ALIVE_IMG = "https://files.catbox.moe/4itzeu.jpg"; // Ensure this URL is valid
+const ALIVE_IMG = "https://files.catbox.moe/yusei5.jpg"; // Ensure this URL is valid
 
 malvin({
     pattern: "help",
@@ -22,7 +22,7 @@ malvin({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-╭───  LUCKY-XD BOT  ───╮
+╭───  PEACE-HUB  ───╮
 │  
 │ 👤 *User:* ${pushname}
 │ 🕒 *Time:* ${currentTime}
@@ -58,8 +58,8 @@ Absolutely! Let’s go through each section of the commands:
 ---
 
 🤖 *AI Commands:*  
-• *Malvin* - Generates an AI response.  
-• *Malvinai* - Generates image response.  
+• *peace* - Generates an AI response.  
+• *peaceai* - Generates image response.  
 • *AI* - Generates an AI response.  
 • *Bug* - Handles bot bugs.  
 • *GPT* - ChatGPT integration.  
@@ -128,7 +128,7 @@ Absolutely! Let’s go through each section of the commands:
 > etc
 ---
 
-> 🤖 *Status:* ✅ *Lucky is Alive and Ready!*
+> 🤖 *Status:* ✅ *Peace Hub is Alive and Ready!*
 🎉 *Enjoy the Service!*
         `.trim();
 
@@ -144,8 +144,8 @@ Absolutely! Let’s go through each section of the commands:
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363420656466131@newsletter',
-                        newsletterName: 'LUCKY-XD',
+                        newsletterJid: '120363421564278292@newsletter',
+                        newsletterName: 'ᴘᴇᴀᴄᴇ ʜᴜʙ',
                         serverMessageId: 143
                     }
                 }
