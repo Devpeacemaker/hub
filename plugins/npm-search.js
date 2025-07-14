@@ -33,7 +33,7 @@ malvin({
 
     // Create the response message
     const message = `
-*LUCKY-XD NPM SEARCH*
+*PEACE-HUB NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}
