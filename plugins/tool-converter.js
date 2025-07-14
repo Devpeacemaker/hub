@@ -35,7 +35,7 @@ malvin({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> Powered By Lucky Tech Hub ",
+            caption: "> Powered By Peace Hub ",
             mimetype: 'image/png'
         }, { quoted: message });
 
