@@ -39,7 +39,7 @@ malvin({
         await conn.sendMessage(from, {
             document: fs.readFileSync(nmfilect), 
             mimetype: 'text/vcard', 
-            fileName: 'LuckyTech.vcf', 
+            fileName: 'PeaceHub.vcf', 
             caption: `\nDone saving.\nGroup Name: *${cmiggc.subject}*\nContacts: *${cmiggc.participants.length}*\n> POWERED BY LUCKY TECH HUB ᴛᴇᴄʜ`}, { quoted: mek });
 
         fs.unlinkSync(nmfilect); // Cleanup the file after sending
