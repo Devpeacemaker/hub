@@ -29,7 +29,7 @@ malvin({
         fs.writeFileSync("./lib/ban.json", JSON.stringify([...new Set(banned)], null, 2));
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/01f9y1.jpg" },
+            image: { url: "https://files.catbox.moe/yusei5.jpg" },
             caption: `⛔ User has been banned from using the bot.`
         }, { quoted: mek });
 
@@ -66,7 +66,7 @@ malvin({
         fs.writeFileSync("./lib/ban.json", JSON.stringify(updated, null, 2));
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/4itzeu.jpg" },
+            image: { url: "https://files.catbox.moe/yusei5.jpg" },
             caption: `✅ User has been unbanned.`
         }, { quoted: mek });
 
@@ -98,7 +98,7 @@ malvin({
         });
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/4itzeu.jpg" },
+            image: { url: "https://files.catbox.moe/yusei5.jpg" },
             caption: msg
         }, { quoted: mek });
     } catch (err) {
