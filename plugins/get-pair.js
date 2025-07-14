@@ -5,9 +5,9 @@ malvin({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for LUCKY-XD bot",
-    category: "download",
-    use: ".pair 256789966xxx",
+    desc: "Get pairing code for PEACE-HUB bot",
+    category: "download
+    use: ".pair 254752818xxx",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
@@ -16,18 +16,18 @@ malvin({
 
         // Validate phone number format
         if (!phoneNumber || phoneNumber.length < 10 || phoneNumber.length > 15) {
-            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 256789966xxx`");
+            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 254752818xxx`");
         }
 
         // Make API request to get pairing code
-        const response = await axios.get(`https://new-session-1-d2kb.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://peacehub.onrender.com/pair/code?number=${encodeURIComponent(phoneNumber)}`);
 
         if (!response.data || !response.data.code) {
             return await reply("❌ Failed to retrieve pairing code. Please try again later.");
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *LUCKY-XD PAIRING COMPLETED*";
+        const doneMessage = "> *PEACE-HUB PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
