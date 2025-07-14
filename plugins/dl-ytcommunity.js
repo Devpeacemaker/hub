@@ -25,7 +25,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
         let caption = `📢 *YouTube Community Post* 📢\n\n` +
                       `📜 *Content:* ${post.content}
 
-> Powered By Lucky Tech Hub`;
+> Powered By Peace Hub`;
 
         if (post.images && post.images.length > 0) {
             for (const img of post.images) {
