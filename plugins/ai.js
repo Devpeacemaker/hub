@@ -48,10 +48,10 @@ malvin({
         }
 
         // Image AI à envoyer
-        const ALIVE_IMG = 'https://files.catbox.moe/4itzeu.jpg'; // Remplacez par l'URL de votre image AI
+        const ALIVE_IMG = 'https://files.catbox.moe/yusei5.jpg'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
-        const formattedInfo = `🤖 *Lucky's Response:*\n\n${gptResponse}`;
+        const formattedInfo = `🤖 *Peace Response:*\n\n${gptResponse}`;
 
         // Envoyer le message avec image et légende
         await conn.sendMessage(from, {
@@ -123,7 +123,7 @@ malvin({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://files.catbox.moe/8e3mrm.jpg'; // Replace with a valid image URL
+        const AI_IMG = 'https://files.catbox.moe/5m0i6t.jpg'; // Replace with a valid image URL
 
         // Formatted response text
         const formattedInfo = `🤖 *Llama3 Response:*\n\n${llamaResponse}`;
