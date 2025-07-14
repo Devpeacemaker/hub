@@ -13,7 +13,7 @@ malvin({
   try {
     const username = args.join(" ");
     if (!username) {
-      return reply("❌ Please provide a YouTube username. Example: `.ytstalk malvintech2 `");
+      return reply("❌ Please provide a YouTube username. Example: `.ytstalk @Peacemaker-q-n8`");
     }
 
     // Fetch YouTube channel information from the API
