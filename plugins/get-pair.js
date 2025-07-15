@@ -6,7 +6,7 @@ malvin({
     alias: ["getpair", "clonebot"],
     react: "✅",
     desc: "Get pairing code for PEACE-HUB bot",
-    category: "download
+    category: "download", 
     use: ".pair 254752818xxx",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
